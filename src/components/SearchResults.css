@@ -1,0 +1,34 @@
+/* Stiluri pentru containerul principal */
+.SearchResults {
+    margin: 20px auto;
+    padding: 10px;
+    width: 90%;
+    max-width: 800px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Titlul secțiunii */
+  .SearchResults h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Containerul pentru lista de melodii */
+  .TrackList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Spațiu între melodii */
+  }
+  
+  /* Fallback pentru când nu există rezultate */
+  .SearchResults p {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+  }
+  

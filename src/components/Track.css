@@ -1,0 +1,38 @@
+.Track {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .Track-information {
+    flex: 1;
+  }
+  
+  .Track-information h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .Track-information p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  button {
+    background-color: #1db954; /* Verde Spotify */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #1ed760; /* Verde mai deschis */
+  }
+  

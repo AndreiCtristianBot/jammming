@@ -1,13 +1,129 @@
-body {
+/* Resetare stiluri implicite pentru browser */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, ol, a {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  text-align: center; /* Centrare text */
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Stiluri generale pentru aplicație */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7; /* Fundal deschis */
+  color: #333; /* Text întunecat */
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Centrare text în body */
 }
+
+/* Stil pentru containerul principal */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  background-color: #ffffff; /* Fundal alb pentru container */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Umbră ușoară pentru stil */
+  border-radius: 10px; /* Colțuri rotunjite */
+  text-align: center; /* Centrare text */
+}
+
+/* Stiluri pentru bara de căutare */
+/* Stiluri pentru bara de căutare */
+.SearchBar {
+  display: flex; /* Elemente aranjate pe orizontală */
+  align-items: center; /* Aliniere verticală */
+  justify-content: center; /* Centrare în container */
+  gap: 10px; /* Spațiu între input și buton */
+}
+
+.SearchBar input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.SearchBar button {
+  padding: 10px 20px;
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.SearchBar button:hover {
+  background-color: #005bb5;
+}
+
+
+/* Stiluri pentru liste */
+.SearchResults,
+.Playlist {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centrare text */
+}
+
+.SearchResults h2,
+.Playlist h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Stiluri pentru melodii */
+.Song {
+  display: flex;
+  justify-content: space-between; /* Distribuire egală */
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+.Song:last-child {
+  border-bottom: none;
+}
+
+.Song button {
+  padding: 5px 10px;
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.Song button:hover {
+  background-color: #005bb5;
+}
+
+/* Alte stiluri pentru ajustări */
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Asigurarea că toate elementele sunt centrate */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Asigură că body-ul ocupă întregul ecran */
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7;
+  text-align: center; /* Centrare text generală */
+}
+
+
+
