@@ -23,7 +23,7 @@
   }
   
   button {
-    background-color: #1db954; /* Verde Spotify */
+    background-color: #911093; /* Mov Spotify */
     color: white;
     border: none;
     padding: 8px 16px;
@@ -33,6 +33,6 @@
   }
   
   button:hover {
-    background-color: #1ed760; /* Verde mai deschis */
+    background-color: #9A119C; /* Mov mai deschis */
   }
   
