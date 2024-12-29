@@ -50,7 +50,7 @@ body {
 
 .SearchBar button {
   padding: 10px 20px;
-  background-color: #0073e6;
+  background-color: #004F9E;
   color: white;
   border: none;
   border-radius: 5px;
@@ -58,7 +58,7 @@ body {
 }
 
 .SearchBar button:hover {
-  background-color: #005bb5;
+  background-color: #0057AD;
 }
 
 

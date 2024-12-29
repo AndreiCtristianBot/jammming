@@ -10,11 +10,13 @@ export default function SearchBar({ onSearch }) {
 
   return (
     <div className="SearchBar">
-      <input
-        placeholder="Enter a song, album, or artist"
-        value={term}
-        onChange={(e) => setTerm(e.target.value)}
-      />
+      <label>Enter a song: 
+        <input
+          placeholder="Enter a song, album, or artist"
+          value={term}
+          onChange={(e) => setTerm(e.target.value)}
+        />
+      </label>
       <button onClick={handleSearch}>SEARCH</button>
     </div>
   );
