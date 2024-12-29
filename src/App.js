@@ -48,10 +48,13 @@ export default function App() {
 
   return (
     <div>
+      <header>
       <br />
       <h1>Jammming</h1>
       <br />
       <SearchBar onSearch={searchSpotify} />
+      </header>
+      <main>
       <br />
       <div className="App-playlist">
         <SearchResults results={searchResults} onAdd={addToPlaylist} />
@@ -66,6 +69,10 @@ export default function App() {
         />
         <br />
       </div>
+      </main>
+      <footer>
+        &#169; {new Date().getFullYear()}, Bot Cristian Andrei.
+      </footer>
     </div>
   );
 }
